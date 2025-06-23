@@ -12,9 +12,12 @@ body {
   font-family: 'DM Sans', sans-serif;
 }
 
-.spacer {
+.spacer-1 {
   width: 100%;
   height: 200px;
+  position: relative;
+  top: 0;
+  border: 1px solid red;
   background-color: $bg;
 }
 
@@ -25,6 +28,7 @@ body {
   align-items: center;
   padding: 60px 0;
   background-color: #fff;
+  border: 1px solid blue;
 }
 
 .hero-wrapper {
@@ -176,4 +180,23 @@ body {
     width: 47px;
     height: 52px;
   }
+}
+
+.spacer-2 {
+  width: 100%;
+  height: 200px;
+  position: absolute;
+  z-index: -1;
+  top: 690px;
+  border: 1px solid red;
+  background-color: $bg;
+}
+
+.second-section {
+  width: 100%;
+  height: 523px;
+  background: linear-gradient(125.27deg, #FF59FC -32.83%, #6B1065 44.71%);
+  border: 1px solid blue;
+  position: absolute;
+  top: 890px;
 }
