@@ -27,6 +27,12 @@ body {
   background-color: #fff;
 }
 
+.hero-wrapper {
+  position: relative;
+  width: 480px;
+  height: 367px;
+}
+
 .hero-box {
   width: 480px;
   height: 367px;
@@ -74,4 +80,55 @@ body {
   font-weight: 700;
   font-size: 20px;
   margin-left: 4px;
+}
+
+.decorative-rect {
+  position: absolute;
+  width: 117px;
+  height: 116px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(30px);
+  box-shadow:
+          0 10px 20px rgba(0, 42, 179, 0.1),
+          inset 1px 1px 0 rgba(255, 255, 255, 0.15);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
+
+  img {
+    width: 53px;
+    height: 37px;
+    object-fit: contain;
+  }
+}
+
+.rect-1 {
+  top: 58px;
+  left: 282px;
+}
+
+.rect-2 {
+  top: 195px;
+  left: 146px;
+}
+
+.rect-3 {
+  top: 331px;
+  left: 9px;
+}
+
+.rect-4 {
+  top: 331px;
+  left: 282px;
+}
+
+.rect-5 {
+  top: 466px;
+  left: 149px;
+  img {
+    width: 51px;
+    height: 56px;
+  }
 }
